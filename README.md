@@ -1,32 +1,30 @@
-# Bike Rental Application
+# Bike Rental Application Overview
 
-Link to frontend - https://github.com/ravirojha/bike-rental-frontend.   
-Live app Link - https://rentabike.netlify.app/.   
-
-## Technologies Used
-
-### Frontend
--> Reactjs.   
--> Material UI.   
--> Other libraries including React Router, jsonwebtoken, moment, react cookie etc.   
+## Technologies Utilized
 
 ### Backend
-->NestJs.   
-->Typeorm.   
-->Sqlite3.   
-->Joi for validation.   
+- **Nest.js**
+- **TypeORM**
+- **SQLite3**
+- **Joi** for validation
 
-There are 2 users :- Regular user and Manager.    
+## User Roles
 
-#### Manager can     
--> Create, Read, Update and Delete bikes.    
--> Create, Read, Update and Delete users and managers.    
--> See all the users who reserved a bike and the period of time they did it.    
-->See all the bikes reserved by users and period of time they did it.    
+There are two user roles in the system: Regular User and Manager.
 
-#### Users can     
--> See a list of all available bikes for specific dates.    
--> Filter by model, color, location or rate averages.    
--> Reserve a bike for specific period of time.    
--> Rate the bike with a score of 1 to 5.    
--> Cancel a reservation.    
+### Manager Privileges
+
+Managers have the following capabilities:
+- Create, Read, Update, and Delete bikes.
+- Manage users and managers: Create, Read, Update, and Delete.
+- View a comprehensive list of users who reserved bikes, including the reservation period.
+- Access details of all bikes reserved by users, along with the corresponding reservation periods.
+
+### User Functionalities
+
+Regular users can perform the following actions:
+- View a list of all available bikes for specific dates.
+- Apply filters based on model, color, location, or rate averages.
+- Reserve a bike for a specific period.
+- Provide a rating for the rented bike on a scale from 1 to 5.
+- Cancel a reservation.
