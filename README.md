@@ -1,5 +1,7 @@
 # Bike Rental Application Overview
 
+This repository hosts the source code for a comprehensive Bike Rental Application. The application is designed with a robust backend utilizing technologies such as Nest.js, TypeORM, SQLite3, and Joi for validation.
+
 ## Technologies Utilized
 
 ### Backend
